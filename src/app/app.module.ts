@@ -9,7 +9,7 @@ import { SelectionComponent } from './selection/selection.component';
 @NgModule({
   declarations: [
     AppComponent,
-    FindComponent
+    FindComponent,
     SelectionComponent
   ],
   imports: [
