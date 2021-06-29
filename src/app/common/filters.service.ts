@@ -32,9 +32,5 @@ export class FiltersService {
     { item_id: 4, item_text: 'Time management' },
     { item_id: 5, item_text: 'Adaptability' },
     { item_id: 6, item_text: 'Leadership' },
-    { item_id: 7, item_text: 'Creativity' },
-    { item_id: 8, item_text: 'Creativity' },
-    { item_id: 9, item_text: 'Creativity' },
-    { item_id: 10, item_text: 'Creativity' },
   ];
 }

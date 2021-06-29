@@ -35,10 +35,6 @@ export class SelectionComponent implements OnInit {
       { item_id: 4, item_text: 'Time management' },
       { item_id: 5, item_text: 'Adaptability' },
       { item_id: 6, item_text: 'Leadership' },
-      { item_id: 7, item_text: 'Creativity' },
-      { item_id: 8, item_text: 'Creativity' },
-      { item_id: 9, item_text: 'Creativity' },
-      { item_id: 10, item_text: 'Creativity' },
     ];
     this.selectedItems = [];
     this.dropdownSettings = {
@@ -52,9 +48,6 @@ export class SelectionComponent implements OnInit {
   }
   onItemSelect(item: any) {
     this.userFilters.softSkills.push(item.item_id);
-  }
-  onSelectAll(items: any) {
-    console.log(items);
   }
   public getFilters = () => {
     console.log(this.userFilters);

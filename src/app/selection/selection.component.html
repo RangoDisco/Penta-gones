@@ -8,12 +8,11 @@
         [data]="dropdownList"
         [(ngModel)]="selectedItems"
         (onSelect)="onItemSelect($event)"
-        (onSelectAll)="onSelectAll($event)"
       ></ng-multiselect-dropdown>
       <div class="select-bottom">
         <select
-          name="category"
           id="category"
+          name="category"
           [(ngModel)]="userFilters.category"
           #userCategory="ngModel"
           required
