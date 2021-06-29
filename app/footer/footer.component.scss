@@ -1,4 +1,4 @@
-.footer-package .bottom{
+.footer-package .botton{
     min-width:0;
     display:-webkit-box;
     display:-webkit-flex;
@@ -32,4 +32,9 @@
     gap: 30px;
     list-style: none;
     opacity: 0.6;
+    background-color: aqua;
+}
+
+.copyright{
+    font-size: 23px;
 }
