@@ -1,0 +1,43 @@
+<section class="selection">
+  <form #userSelects="ngForm" (ngSubmit)="getFilters()">
+    <div class="filters-list">
+      <ng-multiselect-dropdown
+        class="soft-skills-select"
+        [placeholder]="'Soft skills'"
+        [settings]="dropdownSettings"
+        [data]="dropdownList"
+        [(ngModel)]="selectedItems"
+        (onSelect)="onItemSelect($event)"
+      ></ng-multiselect-dropdown>
+      <div class="select-bottom">
+        <select
+          id="category"
+          name="category"
+          [(ngModel)]="userFilters.category"
+          #userCategory="ngModel"
+          required
+        >
+          <option value="">Category</option>
+          <option *ngFor="let category of categories" [value]="category.id">
+            {{ category.name }}
+          </option>
+        </select>
+        <select
+          name="rating"
+          id="rating"
+          [(ngModel)]="userFilters.minRating"
+          #userRating="ngModel"
+          required
+        >
+          <option value="" selected default hidden>Min. rating</option>
+          <option value="5">5</option>
+          <option value="4">4</option>
+          <option value="3">3</option>
+          <option value="2">2</option>
+          <option value="1">1</option>
+        </select>
+      </div>
+    </div>
+    <button type="submit" class="filters-button">Find a freelancer</button>
+  </form>
+</section>

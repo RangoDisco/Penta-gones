@@ -1,29 +1,40 @@
-.profils{
+.profilPage{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
     text-align: center;
-    list-style: none;
+    align-items: center;
+}
+.profils{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
 }
 .profil{
     display: flex;
-    border: 1px solid red;
-    width: 45%;
-    height: 65%;
-    justify-content: space-between;
-    text-align: center;
+    height: 100%;
     background-image: url();
-    position: absolute;
     left:0px;
     top:0px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.profilPhoto{
-    border: 1px solid green;
-    width: 75px;
-    height: 75px;
-    padding: 0%;
+.card-rate{
+    margin: 0;
 }
-.button{
+#button{
     display: flex;
     justify-content: space-around;
+    position: relative;
+}
+.next{
+    position: fixed;
+    left: 33%;
+}
+.match{
+    position: fixed;
+    right: 33%;
 }
