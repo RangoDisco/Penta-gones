@@ -40,3 +40,9 @@
 .multiselect-item-checkbox::before {
   color: red;
 }
+
+@media screen and(max-width: 556px) {
+  .selection {
+    width: 100%;
+  }
+}

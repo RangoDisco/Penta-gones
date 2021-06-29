@@ -32,7 +32,7 @@
             ],
             "styles": [
               "src/styles.scss",
-              "src/scss/ng-multiselect-dropdown.theme.scss",
+              "src/scss/dropdown.scss",
               "src/scss/colors.scss"
             ],
             "stylePreprocessorOptions": {
