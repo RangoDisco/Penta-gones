@@ -1,0 +1,35 @@
+.footer-package .bottom{
+    min-width:0;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+    -webkit-box-pack:justify;
+    -webkit-justify-content:space-between;
+    -ms-flex-pack:justify;
+    justify-content:space-between;
+    -webkit-box-align:center;    
+    -webkit-font-smoothing: antialiased;
+}
+
+.social ul li a{
+    text-decoration: none;
+    align-content: center;
+    padding: 20px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 27px;
+    margin-right: 10px;
+    width: 80%;
+    gap: 30px;
+    list-style: none;
+    opacity: 0.6;
+}
