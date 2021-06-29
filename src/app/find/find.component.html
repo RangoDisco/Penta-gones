@@ -1,0 +1,31 @@
+<li class="profils" *ngFor="let user of listOfUser; let first = first">
+  <div *ngIf="first" class="profil">
+    <div>
+      <img class="profilPhoto" [src]="user.photo" alt="profilPhoto">
+    </div>
+    <div class="username">
+      <p>{{user.username}}</p>
+    </div>
+    <div class="job">
+      <p>{{user.job}}</p>
+    </div>
+    <div class="description">
+      <p>{{user.description}}</p>
+    </div>
+    <div class="rate">
+      <p>{{user.rate}}</p>
+    </div>
+  </div>
+</li>
+<div class="button">
+  <div class="next">
+    <button (click)="buttonNext()">
+      Next
+    </button>
+  </div>
+  <div class="match">
+    <button (click)="buttonMatch()">
+      Match
+    </button>
+  </div>
+</div>

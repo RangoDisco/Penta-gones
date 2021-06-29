@@ -1,0 +1,29 @@
+.profils{
+    text-align: center;
+    list-style: none;
+}
+.profil{
+    display: flex;
+    border: 1px solid red;
+    width: 45%;
+    height: 65%;
+    justify-content: space-between;
+    text-align: center;
+    background-image: url();
+    position: absolute;
+    left:0px;
+    top:0px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.profilPhoto{
+    border: 1px solid green;
+    width: 75px;
+    height: 75px;
+    padding: 0%;
+}
+.button{
+    display: flex;
+    justify-content: space-around;
+}
