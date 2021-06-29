@@ -1,0 +1,18 @@
+<section>
+  <h1>Retrouvez ici les profils que vous avez contactés</h1>
+
+
+  <div class="profile" *ngFor="let freelance of contactedFreelances">
+    <img src=" {{freelance.photo}}" class="profile_photo" alt="freelance picture">
+    <div class="profile_details">
+      <h5 class="profile_title">{{freelance.username}}</h5>
+      <p class="profile_description">{{freelance.description}}
+      </p>
+    </div>
+    <p class="contactDate">14th of June, 2021</p>
+    <a href="#">See more</a>
+    <button class="btn delete"><img src="../../../assets/delete.svg" class="btn-img" alt=""></button>
+    <button class="btn archive"><img src="../../../assets/archive.svg" class="btn-img" alt=""> </button>
+
+  </div>
+</section>
