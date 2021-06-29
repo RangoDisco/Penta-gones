@@ -1,0 +1,58 @@
+[
+    {
+    "username": "Fabien",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Creative", "menfou", "tkt onestla"],
+    "rate": "5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Bobino",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Leadership", "menfou", "tkt onestla"],
+    "rate": "3.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Binotto",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Collaboration", "menfou", "tkt onestla"],
+    "rate": "2",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Hernao",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Time Management", "menfou", "tkt onestla"],
+    "rate": "4.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Genei",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Creative", "menfou", "tkt onestla"],
+    "rate": "4",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Vubi",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Creative", "menfou", "tkt onestla"],
+    "rate": "5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "neibaF",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Creative", "menfou", "tkt onestla"],
+    "rate": "4.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "k2a",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Creative", "menfou", "tkt onestla"],
+    "rate": "3.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    }
+]

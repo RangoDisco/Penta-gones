@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { IDropdownSettings } from 'ng-multiselect-dropdown';
 import { FiltersService } from '../common/filters.service';
 import { UserFilters } from '../common/user-filters';
@@ -16,7 +17,8 @@ export class SelectionComponent implements OnInit {
   public softSkillsList: any[] = [];
   public userFilters: UserFilters = new UserFilters('', [], '');
   public star: string = 'assets/logo/star.svg';
-  constructor(private filtersService: FiltersService) {}
+
+  constructor(private filtersService: FiltersService, private router: Router) {}
 
   ngOnInit(): void {
     // Replissage du tableau de categorie via le service
@@ -47,9 +49,11 @@ export class SelectionComponent implements OnInit {
     };
   }
   onItemSelect(item: any) {
-    this.userFilters.softSkills.push(item.item_id);
+    this.userFilters.softSkills.push(item.item_text);
   }
-  public getFilters = () => {
+  getFilters() {
     console.log(this.userFilters);
-  };
+    this.router.navigate(['/finderr']);
+    this.filtersService.addFilters(this.userFilters);
+  }
 }
