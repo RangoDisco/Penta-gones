@@ -31,8 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/scss/colors.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": ["src/scss"]
+            },
             "scripts": []
           },
           "configurations": {
