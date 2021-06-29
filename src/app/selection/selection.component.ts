@@ -52,8 +52,14 @@ export class SelectionComponent implements OnInit {
     this.userFilters.softSkills.push(item.item_text);
   }
   getFilters() {
-    console.log(this.userFilters);
-    this.router.navigate(['/finderr']);
-    this.filtersService.addFilters(this.userFilters);
+    if (
+      this.userFilters.softSkills.length <= 3 &&
+      this.userFilters.softSkills.length > 0 &&
+      this.userFilters.category !== '' &&
+      this.userFilters.minRating !== ''
+    ) {
+      this.router.navigate(['/finderr']);
+      this.filtersService.addFilters(this.userFilters);
+    } else alert('Please use every selects');
   }
 }

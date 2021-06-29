@@ -1,4 +1,5 @@
 <div class="profils" *ngFor="let user of usersToShow; let first = first">
+  <div class="no-more" *ngIf="usersToShow.length == 0">Ouais gros</div>
   <div *ngIf="first" class="profil">
     <div class="card" style="width: 18rem; height: 20rem">
       <img [src]="user.backgroundImage" class="card-img-top" alt="..." />
@@ -10,7 +11,6 @@
       </div>
     </div>
   </div>
-  <div class="no-more" *ngIf="usersToShow.length == 0">Ouais gros</div>
 </div>
 <div id="button">
   <button class="next" (click)="buttonNext()">Next</button>
