@@ -1,31 +1,21 @@
-<li class="profils" *ngFor="let user of listOfUser; let first = first">
+<div class="profils" *ngFor="let user of listOfUser; let first = first">
   <div *ngIf="first" class="profil">
-    <div>
-      <img class="profilPhoto" [src]="user.photo" alt="profilPhoto">
-    </div>
-    <div class="username">
-      <p>{{user.username}}</p>
-    </div>
-    <div class="job">
-      <p>{{user.job}}</p>
-    </div>
-    <div class="description">
-      <p>{{user.description}}</p>
-    </div>
-    <div class="rate">
-      <p>{{user.rate}}</p>
+    <div class="card" style="width: 18rem; height: 20rem;">
+      <img [src]="user.backgroundImage" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{user.username}}</h5>
+        <h6 class="card-job">{{user.job}}</h6>
+        <p class="card-rate">Rate : {{user.rate}}</p>
+        <p class="card-text">{{user.description}}</p>
+      </div>
     </div>
   </div>
-</li>
-<div class="button">
-  <div class="next">
-    <button (click)="buttonNext()">
+</div>
+<div id="button">
+    <button class="next" (click)="buttonNext()">
       Next
     </button>
-  </div>
-  <div class="match">
-    <button (click)="buttonMatch()">
+    <button class="match" (click)="buttonMatch()">
       Match
     </button>
   </div>
-</div>
