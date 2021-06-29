@@ -42,3 +42,17 @@
 .text-body-3 {
     margin-left: 5%;
 }
+
+@media  (max-width:400px){
+    .social{
+        width: 100%;
+        display: flex;
+    }
+    .left{
+        margin-left: 30%;
+    }
+
+    .right{
+        margin-left: 8%;
+    }
+}
