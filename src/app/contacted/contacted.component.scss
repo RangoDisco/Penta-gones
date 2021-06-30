@@ -1,0 +1,85 @@
+@import "colors";
+
+section {
+  margin: 5%;
+  height: 80vh;
+}
+
+h2 {
+  font-weight: 300;
+  color: darkgray;
+  padding-left: 10px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.profile_title {
+  font-weight: bold;
+}
+
+.profile_photo {
+  height: 100px;
+  margin: 10px;
+}
+
+.profile_details {
+  width: 70%;
+  padding: 10px;
+}
+
+.contactDate {
+  font-style: italic;
+  font-size: small;
+  margin: 0px;
+}
+
+a {
+  margin: 10px;
+}
+
+.btn {
+  background-color: lightcoral;
+  border: none;
+  margin: 10px;
+  outline: none;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.delete {
+  background-color: $pink;
+  &:hover {
+    background-color: darkorchid;
+  }
+}
+
+.archive {
+  background-color: $orange;
+  &:hover {
+    background-color: darkorange;
+  }
+}
+
+.btn-img {
+  height: 20px;
+}
+
+@media screen and (max-width: 415px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
