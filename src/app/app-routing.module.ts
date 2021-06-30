@@ -14,8 +14,8 @@ const routes: Routes = [
   { path: 'find', component: FindComponent },
   { path: 'contacted', component: ContactedComponent },
   { path: 'services', component: ServicesPageComponent },
-  { path: '**', component: PageNotFoundComponent },
   { path: 'deleted', component: DeletedPageComponent },
+  { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
