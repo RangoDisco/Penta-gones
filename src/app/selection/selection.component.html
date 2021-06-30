@@ -1,34 +1,19 @@
 <section class="selection">
+
   <form #userSelects="ngForm" (ngSubmit)="getFilters()">
+    <h2>Hello there !<br> Select the freelancers you want to meet</h2>
     <div class="filters-list">
-      <ng-multiselect-dropdown
-        class="soft-skills-select"
-        [placeholder]="'Soft skills (max: 3)'"
-        [settings]="dropdownSettings"
-        [data]="dropdownList"
-        [(ngModel)]="selectedItems"
-        (onSelect)="onItemSelect($event)"
-      ></ng-multiselect-dropdown>
+      <ng-multiselect-dropdown class="soft-skills-select" [placeholder]="'Soft skills (max: 3)'"
+        [settings]="dropdownSettings" [data]="dropdownList" [(ngModel)]="selectedItems"
+        (onSelect)="onItemSelect($event)"></ng-multiselect-dropdown>
       <div class="select-bottom">
-        <select
-          id="category"
-          name="category"
-          [(ngModel)]="userFilters.category"
-          #userCategory="ngModel"
-          required
-        >
+        <select id="category" name="category" [(ngModel)]="userFilters.category" #userCategory="ngModel" required>
           <option value="">Category</option>
           <option *ngFor="let category of categories" [value]="category.name">
             {{ category.name }}
           </option>
         </select>
-        <select
-          name="rating"
-          id="rating"
-          [(ngModel)]="userFilters.minRating"
-          #userRating="ngModel"
-          required
-        >
+        <select name="rating" id="rating" [(ngModel)]="userFilters.minRating" #userRating="ngModel" required>
           <option value="" selected default hidden>Min. rating</option>
           <option value="5">5</option>
           <option value="4">4</option>

@@ -10,11 +10,19 @@
   height: 90vh;
 }
 
+h2 {
+  font-weight: 300;
+  color: darkgray;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
 form {
   display: block;
   margin: auto;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
 }
 
 .filters-list {
