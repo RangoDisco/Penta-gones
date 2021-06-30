@@ -1,5 +1,8 @@
 <section>
-  <h2>Retrouvez ici les profils que vous avez contactés</h2>
+  <h2>Here, you can see the freelancers you've contacted</h2>
+  <a href="#">See deleted conversations</a>
+  <a href="#">See archived conversations</a>
+
 
   <div class="profile" *ngFor="let freelance of contacted">
     <img src=" {{freelance.photo}}" class="profile_photo" alt="freelance picture">
@@ -7,9 +10,9 @@
       <h5 class="profile_title">{{freelance.username}}</h5>
       <p class="profile_description">{{freelance.description}}
       </p>
+      <a href="#">See more</a>
     </div>
     <p class="contactDate">14th of June, 2021</p>
-    <a href="#">See more</a>
     <div class="btns">
       <button class="btn delete" (click)="addContactedToDeleted(freelance)"><img src="../../../assets/delete.svg"
           class="btn-img" alt=""></button>
