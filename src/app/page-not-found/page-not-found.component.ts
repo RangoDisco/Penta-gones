@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageNotFoundComponent implements OnInit {
 
-  public portraitImg: string = "assets/img/Fiverr_14_Gabriell1e_Background.jpg";
+  public portraitImg2: string = "assets/img/Fiverr_04.jpg";
 
   constructor() { }
 
