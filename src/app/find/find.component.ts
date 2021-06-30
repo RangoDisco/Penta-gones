@@ -24,21 +24,19 @@ export class FindComponent implements OnInit {
     this.userFilters = this.filtersService.userFilters;
     this.usersService.getUsers().subscribe((data) => {
       this.listOfUser = data;
-      if (this.userFilters.minRating) {
-        this.listOfUser.forEach((user) => {
-          if (
-            user.rate >= this.userFilters.minRating &&
-            user.job == this.userFilters.category &&
-            user.softSkills.includes(
-              this.userFilters.softSkills[0] ||
-                this.userFilters.softSkills[1] ||
-                this.userFilters.softSkills[2]
-            )
-          ) {
-            this.usersToShow.push(user);
-          }
-        });
-      }
+      this.listOfUser.forEach((user) => {
+        if (
+          user.rate >= this.userFilters.minRating &&
+          user.job == this.userFilters.category &&
+          user.softSkills.includes(
+            this.userFilters.softSkills[0] ||
+              this.userFilters.softSkills[1] ||
+              this.userFilters.softSkills[2]
+          )
+        ) {
+          this.usersToShow.push(user);
+        }
+      });
     });
   }
 
@@ -58,6 +56,6 @@ export class FindComponent implements OnInit {
     }
   }
   showNothing() {
-    alert('Plus aucun freelancer');
+    alert('No more freelancer available');
   }
 }
