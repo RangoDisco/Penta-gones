@@ -22,7 +22,6 @@ export class FindComponent implements OnInit {
 
   ngOnInit(): void {
     this.userFilters = this.filtersService.userFilters;
-    console.log(this.usersToShow);
     this.usersService.getUsers().subscribe((data) => {
       this.listOfUser = data;
       if (this.userFilters.minRating) {
@@ -46,7 +45,6 @@ export class FindComponent implements OnInit {
   buttonMatch() {
     this.listOfMatch.push(this.usersToShow[0]);
     this.usersToShow.shift();
-    console.log(this.listOfMatch);
     if (this.usersToShow.length == 0) {
       this.showNothing();
     }
@@ -55,7 +53,6 @@ export class FindComponent implements OnInit {
   buttonNext() {
     this.listOfNext.push(this.listOfUser[0]);
     this.usersToShow.shift();
-    console.log(this.listOfNext);
     if (this.usersToShow.length == 0) {
       this.showNothing();
     }
