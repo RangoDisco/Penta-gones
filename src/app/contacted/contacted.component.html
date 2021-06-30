@@ -5,10 +5,10 @@
 
 
   <div class="profile" *ngFor="let freelance of contacted">
-    <img src=" {{freelance.photo}}" class="profile_photo" alt="freelance picture">
+    <img src=" {{freelance.backgroundImage}}" class="profile_photo" alt="freelance picture">
     <div class="profile_details">
       <h5 class="profile_title">{{freelance.username}}</h5>
-      <p class="profile_description">{{freelance.description}}
+      <p class="profile_description">{{freelance.softSkills}}
       </p>
       <a href="#">See more</a>
     </div>
