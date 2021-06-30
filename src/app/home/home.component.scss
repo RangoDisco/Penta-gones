@@ -5,22 +5,32 @@
   font-family: "Macan";
 }
 
-h2 {
-  font-size: 42px;
+.welcomeTitle {
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  font-size: 35px;
 }
 
-p {
-  font-size: 22px;
+.catchPhrase {
+  font-size: 20px;
+  width: 100%;
+}
+
+span {
+  font-style: italic;
+  font-size: 40px;
 }
 
 img {
-  width: 100%;
+  width: 90%;
   height: 40%;
   border-radius: 100%;
+  margin-right: 5px;
 }
 
 .flex-container {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -35,7 +45,7 @@ img {
   flex-basis: auto;
   align-self: auto;
   order: 0;
-  margin: 10%;
+  margin: 5%;
 }
 
 .flex-items:nth-child(2) {
@@ -46,4 +56,59 @@ img {
   align-self: auto;
   order: 0;
   margin: 5%;
+}
+
+@media screen and(max-width: 556px) {
+  .welcomeTitle {
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .catchPhrase {
+    font-size: 10px;
+    width: 100%;
+  }
+
+  span {
+    font-style: italic;
+    font-size: 30px;
+  }
+
+  img {
+    width: 70%;
+    height: 50%;
+    border-radius: 70%;
+    margin-right: 5px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .flex-container {
+    display: inline-flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: normal;
+  }
+
+  .flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
+
+  .flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+  }
 }
