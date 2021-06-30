@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { ContactedComponent } from './contacted/contacted.component';
 import { ServicesPageComponent } from './services-page/services-page.component';
+import { DeletedPageComponent } from './deleted-page/deleted-page.component';
 
 
 @NgModule({
@@ -20,7 +21,7 @@ import { ServicesPageComponent } from './services-page/services-page.component';
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    AppComponent, FindComponent, SelectionComponent, ContactedComponent, ServicesPageComponent
+    AppComponent, FindComponent, SelectionComponent, ContactedComponent, ServicesPageComponent, DeletedPageComponent
   ],
   imports: [
     BrowserModule,

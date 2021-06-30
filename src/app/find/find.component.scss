@@ -20,13 +20,14 @@ section {
 .profil {
   display: block;
   margin: auto;
-  background-color: white;
-  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
 }
+
 .card {
   border: none !important;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .card-rate {
@@ -59,4 +60,8 @@ section {
   /*   position: absolute;
   top: 850px;
   left: 640px; */
+}
+
+.pass {
+  background-color: gray;
 }

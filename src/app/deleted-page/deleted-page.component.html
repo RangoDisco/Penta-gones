@@ -1,0 +1,15 @@
+<section>
+  <h2>Here, you can see the freelancers you've deleted</h2>
+  <a [routerLink]="['/contacted']">Back to contacted freelancers</a>
+
+  <div class="profile" *ngFor="let freelance of deleted">
+    <img src=" {{freelance.backgroundImage}}" class="profile_photo" alt="freelance picture">
+    <div class="profile_details">
+      <h5 class="profile_title">{{freelance.username}}</h5>
+      <p class="profile_description">{{freelance.softSkills}}
+      </p>
+      <a href="#">See more</a>
+    </div>
+    <p class="contactDate">14th of June, 2021</p>
+  </div>
+</section>
