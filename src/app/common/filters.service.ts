@@ -2,13 +2,14 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { UserFilters } from './user-filters';
 
 @Injectable({
   providedIn: 'root',
 })
 export class FiltersService {
   constructor(private http: HttpClient) {}
-
+  userFilters: UserFilters;
   getCategories(): Observable<any> {
     const obs = this.http.get('assets/json/categories.json');
     const result = (data: any) => {
@@ -33,4 +34,8 @@ export class FiltersService {
     { item_id: 5, item_text: 'Adaptability' },
     { item_id: 6, item_text: 'Leadership' },
   ];
+
+  addFilters(userFilters) {
+    this.userFilters = userFilters;
+  }
 }

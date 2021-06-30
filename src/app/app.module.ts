@@ -11,6 +11,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { ContactedComponent } from './contacted/contacted.component';
+import { ServicesPageComponent } from './services-page/services-page.component';
 
 
 @NgModule({
@@ -19,7 +20,7 @@ import { ContactedComponent } from './contacted/contacted.component';
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    AppComponent, FindComponent, SelectionComponent, ContactedComponent
+    AppComponent, FindComponent, SelectionComponent, ContactedComponent, ServicesPageComponent
   ],
   imports: [
     BrowserModule,

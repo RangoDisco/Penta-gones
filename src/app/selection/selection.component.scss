@@ -2,11 +2,21 @@
 @import "colors";
 
 .selection {
-  width: 30%;
   display: flex;
   flex-direction: column;
+  justify-items: center;
+  align-items: center;
   padding: 15px;
+  height: 90vh;
 }
+
+form {
+  display: block;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .filters-list {
   display: flex;
   flex-flow: row wrap;

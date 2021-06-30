@@ -3,7 +3,7 @@
     <div class="filters-list">
       <ng-multiselect-dropdown
         class="soft-skills-select"
-        [placeholder]="'Soft skills'"
+        [placeholder]="'Soft skills (max: 3)'"
         [settings]="dropdownSettings"
         [data]="dropdownList"
         [(ngModel)]="selectedItems"
@@ -18,7 +18,7 @@
           required
         >
           <option value="">Category</option>
-          <option *ngFor="let category of categories" [value]="category.id">
+          <option *ngFor="let category of categories" [value]="category.name">
             {{ category.name }}
           </option>
         </select>

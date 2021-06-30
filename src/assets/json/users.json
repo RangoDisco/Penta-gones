@@ -1,0 +1,72 @@
+[
+    {
+    "username": "Fabien",
+    "job": "Graphics & Design",
+    "softSkills": ["Creativity", "Communication", "Collaboration"],
+    "rate": "5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Bobino",
+    "job": "Digital Marketing",
+    "softSkills": ["Leadership", "Time Management", "Adaptability"],
+    "rate": "3.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Binotto",
+    "job": "Lanceur de sorts",
+    "softSkills": ["Collaboration", "Leadership", "Creativity"],
+    "rate": "2",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Hernao",
+    "job": "Writing & Translation",
+    "softSkills": ["Time Management", "Communication", "Creativity"],
+    "rate": "4.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Genei",
+    "job": "Video & Animation",
+    "softSkills": ["Leadership", "Time Management", "Collaboration"],
+    "rate": "4",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Vubi",
+    "job": "Music & Audio",
+    "softSkills": ["Creativity", "Communication", "Collaboration"],
+    "rate": "5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "neibaF",
+    "job": "Programming & Tech",
+    "softSkills": ["Leadership", "Time Management", "Collaboration"],
+    "rate": "4.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "k2a",
+    "job": "Data",
+    "softSkills": ["Collaboration", "Leadership", "Creativity"],
+    "rate": "3.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "k2a",
+    "job": "Business",
+    "softSkills": ["Collaboration", "Leadership", "Creativity"],
+    "rate": "3.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    },
+    {
+    "username": "Ramos",
+    "job": "Lifestyle",
+    "softSkills": ["Collaboration", "Leadership", "Creativity"],
+    "rate": "3.5",
+    "backgroundImage": "assets/kaariq.jpeg"
+    }
+]
