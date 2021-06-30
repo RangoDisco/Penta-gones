@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ContactedComponent } from './contacted/contacted.component';
+import { ServicesPageComponent } from './services-page/services-page.component';
 
 
 @NgModule({
@@ -19,7 +21,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    AppComponent, FindComponent, SelectionComponent, PageNotFoundComponent
+    AppComponent, FindComponent, SelectionComponent, PageNotFoundComponent, ContactedComponent, ServicesPageComponent
   ],
   imports: [
     BrowserModule,

@@ -2,11 +2,31 @@
 @import "colors";
 
 .selection {
-  width: 30%;
   display: flex;
   flex-direction: column;
+  justify-items: center;
+  align-items: center;
   padding: 15px;
+  height: 90vh;
+  background-image: url(../../assets/img/background.png);
 }
+
+h2 {
+  font-weight: 300;
+  color: darkgray;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+form {
+  display: block;
+  margin: auto;
+  margin-left: 80px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
 .filters-list {
   display: flex;
   flex-flow: row wrap;
