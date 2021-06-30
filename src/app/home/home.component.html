@@ -1,9 +1,13 @@
 <section class="home">
   <div class="flex-container">
     <div class="flex-items">
-      <h2>Welcome to Finderr</h2>
-      <p>Need help from another freelancers ?</p>
-      <button type="button" [routerLink]="['/select']" class="btn btn-success">Try Finderr!</button>
+      <div class="welcomeTitle">
+        <p>Welcome to <span>Finderr</span></p>
+      </div>
+      <div class="catchPhrase">
+        <p>Need help from another freelancers ?</p>
+        <button type="button" [routerLink]="['/select']" class="btn btn-success">Try Finderr!</button>
+      </div>
     </div>
 
     <div class="flex-items"><img [src]="portraitImg" /></div>
