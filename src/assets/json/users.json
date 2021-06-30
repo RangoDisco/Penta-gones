@@ -1,72 +1,72 @@
 [
-    {
+  {
     "username": "Fabien",
     "job": "Graphics & Design",
     "softSkills": ["Creativity", "Communication", "Collaboration"],
     "rate": "5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "Bobino",
+    "backgroundImage": "assets/img/freelance1.jpg"
+  },
+  {
+    "username": "Daniel",
     "job": "Digital Marketing",
     "softSkills": ["Leadership", "Time Management", "Adaptability"],
     "rate": "3.5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "Binotto",
+    "backgroundImage": "assets/img/freelance2.jpg"
+  },
+  {
+    "username": "Caroline",
     "job": "Lanceur de sorts",
     "softSkills": ["Collaboration", "Leadership", "Creativity"],
     "rate": "2",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
+    "backgroundImage": "assets/img/freelance4.jpg"
+  },
+  {
     "username": "Hernao",
-    "job": "Writing & Translation",
-    "softSkills": ["Time Management", "Communication", "Creativity"],
+    "job": "Graphics & Design",
+    "softSkills": ["Collaboration", "Communication", "Creativity"],
     "rate": "4.5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "Genei",
+    "backgroundImage": "assets/img/freelance3.jpg"
+  },
+  {
+    "username": "Axelle",
     "job": "Video & Animation",
     "softSkills": ["Leadership", "Time Management", "Collaboration"],
     "rate": "4",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "Vubi",
-    "job": "Music & Audio",
+    "backgroundImage": "assets/img/freelance5.jpeg"
+  },
+  {
+    "username": "Julia",
+    "job": "Graphics & Design",
     "softSkills": ["Creativity", "Communication", "Collaboration"],
     "rate": "5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "neibaF",
+    "backgroundImage": "assets/img/freelance6.jpg"
+  },
+  {
+    "username": "Kevin",
     "job": "Programming & Tech",
     "softSkills": ["Leadership", "Time Management", "Collaboration"],
     "rate": "4.5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "k2a",
+    "backgroundImage": "assets/img/freelance7.jpg"
+  },
+  {
+    "username": "Thomas",
     "job": "Data",
     "softSkills": ["Collaboration", "Leadership", "Creativity"],
     "rate": "3.5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "k2a",
+    "backgroundImage": "assets/img/freelance8.jpg"
+  },
+  {
+    "username": "Lea",
     "job": "Business",
     "softSkills": ["Collaboration", "Leadership", "Creativity"],
     "rate": "3.5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    },
-    {
-    "username": "Ramos",
-    "job": "Lifestyle",
-    "softSkills": ["Collaboration", "Leadership", "Creativity"],
+    "backgroundImage": "assets/img/freelance9.jpg"
+  },
+  {
+    "username": "Anna",
+    "job": "Graphics & Design",
+    "softSkills": ["Collaboration", "Communication", "Creativity"],
     "rate": "3.5",
-    "backgroundImage": "assets/kaariq.jpeg"
-    }
+    "backgroundImage": "assets/img/freelance10.jpg"
+  }
 ]

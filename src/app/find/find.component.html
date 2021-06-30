@@ -1,18 +1,24 @@
-<div class="profils" *ngFor="let user of usersToShow; let first = first">
-  <div class="no-more" *ngIf="usersToShow.length == 0">Ouais gros</div>
-  <div *ngIf="first" class="profil">
-    <div class="card" style="width: 18rem; height: 20rem">
-      <img [src]="user.backgroundImage" class="card-img-top" alt="..." />
-      <div class="card-body">
-        <h5 class="card-title">{{ user.username }}</h5>
-        <h6 class="card-job">{{ user.job }}</h6>
-        <p class="card-rate">Rate : {{ user.rate }}</p>
-        <p class="card-text">{{ user.softSkills }}</p>
+<section id="find">
+
+
+  <div class="tinder">
+    <div class="profils" *ngFor="let user of usersToShow; let first = first">
+      <div class="no-more" *ngIf="usersToShow.length == 0">Ouais gros</div>
+      <div *ngIf="first" class="profil">
+        <img [src]="user.backgroundImage" class="card-img-top" alt="..." />
+        <div class="card" style="height: 20rem">
+          <div class="card-body">
+            <h5 class="card-title">{{ user.username }}</h5>
+            <h6 class="card-job">{{ user.job }}</h6>
+            <p class="card-rate">{{ user.rate }}</p>
+            <p class="card-text">{{ user.softSkills }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button" (click)="buttonNext()">Pass</button>
+        <button class="button" (click)="buttonMatch()">Match</button>
       </div>
     </div>
   </div>
-</div>
-<div id="button">
-  <button class="button next" (click)="buttonNext()">Next</button>
-  <button class="button match" (click)="buttonMatch()">Match</button>
-</div>
+</section>
