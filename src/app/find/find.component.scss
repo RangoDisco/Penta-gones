@@ -14,24 +14,22 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .profil {
   display: block;
   margin: auto;
-  height: 100%;
-  width: 25%;
-  background-color: white;
-  left: 0px;
-  top: 0px;
-  border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 12px;
 }
+
 .card {
   border: none !important;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
+
 .card-rate {
   margin: 0;
 }
@@ -40,6 +38,10 @@ section {
   display: block;
   margin: 0 auto;
   width: 20rem;
+}
+
+.card-body {
+  height: 200px;
 }
 
 .button {
@@ -55,7 +57,11 @@ section {
 .buttons {
   display: flex;
   justify-content: center;
-  /*  position: absolute;
+  /*   position: absolute;
   top: 850px;
   left: 640px; */
+}
+
+.pass {
+  background-color: gray;
 }

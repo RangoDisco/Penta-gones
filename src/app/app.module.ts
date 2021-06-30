@@ -13,6 +13,7 @@ import { NgMultiSelectDropDownModule } from 'ng-multiselect-dropdown';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactedComponent } from './contacted/contacted.component';
 import { ServicesPageComponent } from './services-page/services-page.component';
+import { DeletedPageComponent } from './deleted-page/deleted-page.component';
 
 
 @NgModule({
@@ -21,7 +22,7 @@ import { ServicesPageComponent } from './services-page/services-page.component';
     HomeComponent,
     NavBarComponent,
     FooterComponent,
-    AppComponent, FindComponent, SelectionComponent, PageNotFoundComponent, ContactedComponent, ServicesPageComponent
+    AppComponent, FindComponent, SelectionComponent, PageNotFoundComponent, ContactedComponent, ServicesPageComponent, DeletedPageComponent
   ],
   imports: [
     BrowserModule,

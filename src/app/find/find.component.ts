@@ -58,8 +58,8 @@ export class FindComponent implements OnInit {
   showNothing() {
     this.usersToShow.push(
       new Profil(
-        'No more freelancer available',
         '',
+        'No more freelancer available',
         [''],
         '',
         '../../../assets/img/logo.png'

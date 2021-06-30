@@ -35,14 +35,12 @@ export class ContactedService {
   ];
 
   addContactedToArchived(contacted: Profil) {
-    console.log(contacted);
     this.contacted.splice(this.contacted.indexOf(contacted), 1);
     this.archived.push(contacted);
   }
 
   addContactedToDeleted(contacted: Profil) {
-    console.log(contacted);
     this.contacted.splice(this.contacted.indexOf(contacted), 1);
-    this.archived.push(contacted);
+    this.deleted.push(contacted);
   }
 }
