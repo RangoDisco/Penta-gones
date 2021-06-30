@@ -11,13 +11,15 @@
             <h5 class="card-title">{{ user.username }}</h5>
             <h6 class="card-job">{{ user.job }}</h6>
             <p class="card-rate">{{ user.rate }}</p>
-            <p class="card-text">{{ user.softSkills }}</p>
+            <ul>
+              <p *ngFor="let softskill of user.softSkills" class="card-text">{{softskill}}</p>
+            </ul>
           </div>
         </div>
-      </div>
-      <div class="buttons">
-        <button class="button" (click)="buttonNext()">Pass</button>
-        <button class="button" (click)="buttonMatch()">Match</button>
+        <div class="buttons">
+          <button class="button" (click)="buttonNext()">Pass</button>
+          <button class="button" (click)="buttonMatch()">Match</button>
+        </div>
       </div>
     </div>
   </div>
