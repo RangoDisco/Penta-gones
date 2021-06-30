@@ -39,6 +39,7 @@ section {
 .card-img-top {
   display: block;
   margin: 0 auto;
+  width: 20rem;
 }
 
 .button {
@@ -54,4 +55,7 @@ section {
 .buttons {
   display: flex;
   justify-content: center;
+  /*  position: absolute;
+  top: 850px;
+  left: 640px; */
 }
