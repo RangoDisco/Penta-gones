@@ -21,6 +21,9 @@ export class FindComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
+    if (this.usersToShow.length == 0) {
+      this.showNothing();
+    }
     this.userFilters = this.filtersService.userFilters;
     this.usersService.getUsers().subscribe((data) => {
       this.listOfUser = data;
@@ -56,6 +59,8 @@ export class FindComponent implements OnInit {
     }
   }
   showNothing() {
-    alert('No more freelancer available');
+    this.usersToShow.push(
+      new Profil('No more freelancer available', '', [''], '', '')
+    );
   }
 }
